@@ -1,0 +1,587 @@
+/* ========== Base ========== */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg: #f5f6f8;
+  --card-bg: #ffffff;
+  --card-border: #e5e7eb;
+  --text: #1f2937;
+  --text-secondary: #4b5563;
+  --text-tertiary: #6b7280;
+  --text-muted: #9ca3af;
+  --gap: 16px;
+  --radius: 12px;
+  --card-padding: 24px;
+  --shadow: 0 1px 2px rgba(0,0,0,0.04);
+
+  /* カテゴリカラー（左ボーダー用） */
+  --color-childcare: #22c55e;
+  --color-medical: #ef4444;
+  --color-safety: #f59e0b;
+  --color-economy: #8b5cf6;
+  --color-education: #06b6d4;
+  --color-living: #3b82f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Noto Sans JP', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "palt";
+}
+
+.app {
+  height: 100%;
+}
+
+.loading-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: var(--text-tertiary);
+}
+
+/* ========== Ward Selector ========== */
+.ward-selector {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 8px 32px 8px 14px;
+  appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236b7280' d='M3 5l3 3 3-3'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.ward-selector:focus {
+  outline: none;
+  border-color: var(--text-tertiary);
+}
+
+/* ========== Bento ========== */
+.bento {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  padding: var(--gap);
+  min-height: 100%;
+}
+
+.bento-cell {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: var(--card-padding);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ========== Header ========== */
+.cell-header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+
+/* ========== Section Title ========== */
+.section-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: 0.01em;
+  margin-bottom: 16px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ========== Ranking Badge (モノトーン統一) ========== */
+.rank-badge {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-feature-settings: "tnum";
+  background: #f3f4f6;
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+
+/* ========== Radar ========== */
+.radar-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.radar-chart-wrap {
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ========== Population Summary ========== */
+.pop-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.pop-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.pop-total {
+  margin-bottom: 8px;
+}
+
+.pop-total-number {
+  font-size: clamp(24px, 5vw, 36px);
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-feature-settings: "tnum";
+  line-height: 1.1;
+  color: var(--text);
+}
+
+.pop-total-unit {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-left: 2px;
+}
+
+.pop-gender {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  font-feature-settings: "tnum";
+}
+
+.age-bar {
+  display: flex;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  gap: 2px;
+  margin-bottom: 12px;
+}
+
+.age-segment {
+  border-radius: 3px;
+  opacity: 0.7;
+}
+
+.age-legend {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.age-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-tertiary);
+}
+
+.age-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+.age-pct {
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-feature-settings: "tnum";
+}
+
+/* ========== Trend ========== */
+.trend-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.trend-chart-wrap {
+  height: 200px;
+}
+
+/* ========== Stat Card ========== */
+.stat-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  flex-shrink: 0;
+}
+
+.stat-card-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: 0.01em;
+}
+
+.stat-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  letter-spacing: 0.02em;
+  margin-bottom: 2px;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stat-value-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  font-feature-settings: "tnum";
+  color: var(--text);
+}
+
+.stat-unit {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-left: 2px;
+}
+
+.stat-diff {
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-feature-settings: "tnum";
+  flex-shrink: 0;
+}
+
+.stat-diff.good {
+  color: #059669;
+}
+
+.stat-diff.bad {
+  color: #dc2626;
+}
+
+.diff-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* ========== Source Note ========== */
+.source-note {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  text-align: right;
+  padding: 0 4px;
+  flex-shrink: 0;
+}
+
+/* ========== Mobile: 1列（〜767px） ========== */
+.bento {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  padding: var(--gap);
+  min-height: 100%;
+}
+
+.bento-cell {
+  min-width: 280px;
+}
+
+/* ========== タブレット: 2列（768px〜1365px） ========== */
+@media (min-width: 768px) {
+  :root {
+    --gap: 14px;
+    --card-padding: 20px;
+  }
+
+  .bento {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    align-items: stretch;
+    gap: var(--gap);
+    padding: var(--gap);
+  }
+
+  .cell-header {
+    grid-column: 1 / -1;
+    padding: 12px 20px;
+  }
+
+  .cell-radar {
+    grid-column: 1 / -1;
+    min-height: 350px;
+  }
+
+  .cell-trend {
+    grid-column: 1;
+  }
+
+  .cell-pop {
+    grid-column: 2;
+  }
+
+  .radar-chart-wrap {
+    height: 300px;
+  }
+
+  .trend-chart-wrap {
+    height: 200px;
+  }
+
+  .stat-value {
+    font-size: 22px;
+  }
+
+  .stat-items {
+    gap: 10px;
+  }
+}
+
+/* ========== PC: 4列グリッド（1366px〜） ========== */
+@media (min-width: 1366px) {
+  :root {
+    --gap: 16px;
+    --card-padding: 24px;
+  }
+
+  .bento {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 3fr;
+    grid-template-rows: auto auto auto auto;
+    align-items: stretch;
+    padding: var(--gap);
+    gap: var(--gap);
+  }
+
+  .bento-cell {
+    padding: var(--card-padding);
+  }
+
+  /* header */
+  .cell-header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    padding: 12px 24px;
+  }
+
+  .header-title {
+    font-size: 18px;
+  }
+
+  /* radar */
+  .cell-radar {
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+  }
+
+  /* trend */
+  .cell-trend {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  /* pop */
+  .cell-pop {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  /* 6カテゴリ: 明示的にgrid配置 */
+  .cell-stat-1 { grid-column: 3; grid-row: 2; }
+  .cell-stat-2 { grid-column: 4; grid-row: 2; }
+  .cell-stat-3 { grid-column: 3; grid-row: 3; }
+  .cell-stat-4 { grid-column: 4; grid-row: 3; }
+  .cell-stat-5 { grid-column: 3; grid-row: 4; }
+  .cell-stat-6 { grid-column: 4; grid-row: 4; }
+
+  /* 出典 */
+  .source-note {
+    grid-column: 1 / -1;
+    padding: 4px;
+  }
+
+  /* PC サイズ調整 */
+  .section-title {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+
+  .stat-card-header {
+    margin-bottom: 10px;
+  }
+
+  .stat-card-title {
+    font-size: 14px;
+  }
+
+  .stat-label {
+    font-size: 11px;
+  }
+
+  .stat-value {
+    font-size: 24px;
+  }
+
+  .stat-items {
+    gap: 8px;
+  }
+
+  .stat-unit {
+    font-size: 11px;
+  }
+
+  .stat-diff {
+    font-size: 11px;
+  }
+
+  .pop-total-number {
+    font-size: 32px;
+  }
+
+  .pop-total-unit {
+    font-size: 14px;
+  }
+
+  .pop-gender {
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+
+  .age-legend-item {
+    font-size: 11px;
+  }
+
+  .radar-chart-wrap {
+    height: 300px;
+  }
+
+  .trend-chart-wrap {
+    height: 180px;
+  }
+}
+
+/* ========== ワイドPC（1600px〜） ========== */
+@media (min-width: 1600px) {
+  :root {
+    --gap: 18px;
+    --card-padding: 28px;
+  }
+
+  .header-title {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 15px;
+    margin-bottom: 16px;
+  }
+
+  .stat-card-title {
+    font-size: 15px;
+  }
+
+  .stat-label {
+    font-size: 12px;
+  }
+
+  .stat-value {
+    font-size: 28px;
+  }
+
+  .stat-items {
+    gap: 12px;
+  }
+
+  .stat-unit {
+    font-size: 12px;
+  }
+
+  .stat-diff {
+    font-size: 12px;
+  }
+
+  .pop-total-number {
+    font-size: 40px;
+  }
+
+  .pop-gender {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .age-legend-item {
+    font-size: 12px;
+  }
+}

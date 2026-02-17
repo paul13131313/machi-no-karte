@@ -1,0 +1,4429 @@
+{
+  "generatedAt": "2026-02-17T04:20:16.415Z",
+  "avg23Scores": {
+    "childcare": 50,
+    "medical": 50,
+    "safety": 50,
+    "economy": 50,
+    "education": 50,
+    "living": 50
+  },
+  "wards": [
+    {
+      "city": {
+        "code": "13101",
+        "name": "千代田区",
+        "population": {
+          "total": 66680,
+          "male": 33637,
+          "female": 33043,
+          "under15": 8976,
+          "age15to64": 46517,
+          "over65": 10852,
+          "foreigners": 2724,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 36035
+            },
+            {
+              "year": 2005,
+              "population": 41778
+            },
+            {
+              "year": 2010,
+              "population": 47115
+            },
+            {
+              "year": 2015,
+              "population": 58406
+            },
+            {
+              "year": 2020,
+              "population": 66680
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 10,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 15,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 15,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 532,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 1935,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 4484,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 1367,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 1121,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 34250,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 657,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 11,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 14,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 6,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 37011,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 841,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 9.2,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 32,
+        "medical": 50,
+        "safety": 56,
+        "economy": 45,
+        "education": 39,
+        "living": 44
+      },
+      "rankings": {
+        "childcare": 23,
+        "medical": 9,
+        "safety": 8,
+        "economy": 15,
+        "education": 20,
+        "living": 23,
+        "population": 23
+      }
+    },
+    {
+      "city": {
+        "code": "13102",
+        "name": "中央区",
+        "population": {
+          "total": 169179,
+          "male": 80931,
+          "female": 88248,
+          "under15": 23086,
+          "age15to64": 121217,
+          "over65": 24683,
+          "foreigners": 7385,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 72526
+            },
+            {
+              "year": 2005,
+              "population": 98399
+            },
+            {
+              "year": 2010,
+              "population": 122762
+            },
+            {
+              "year": 2015,
+              "population": 141183
+            },
+            {
+              "year": 2020,
+              "population": 169179
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 44,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 54,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 4,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 733,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 1690,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 3524,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 1211,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 781,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 37869,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1326,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 16,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 5,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 5,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 92533,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 2250,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 8.8,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 41,
+        "medical": 50,
+        "safety": 59,
+        "economy": 51,
+        "education": 36,
+        "living": 47
+      },
+      "rankings": {
+        "childcare": 20,
+        "medical": 10,
+        "safety": 4,
+        "economy": 9,
+        "education": 23,
+        "living": 16,
+        "population": 22
+      }
+    },
+    {
+      "city": {
+        "code": "13103",
+        "name": "港区",
+        "population": {
+          "total": 260486,
+          "male": 123410,
+          "female": 137076,
+          "under15": 34714,
+          "age15to64": 174886,
+          "over65": 42546,
+          "foreigners": 17409,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 159398
+            },
+            {
+              "year": 2005,
+              "population": 185861
+            },
+            {
+              "year": 2010,
+              "population": 205131
+            },
+            {
+              "year": 2015,
+              "population": 243283
+            },
+            {
+              "year": 2020,
+              "population": 260486
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 47,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 64,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 12,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 912,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 3368,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 5704,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 2454,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 1397,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 39375,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1938,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 21,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 22,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 9,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 146160,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 2311,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 9.6,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 42,
+        "medical": 60,
+        "safety": 47,
+        "economy": 61,
+        "education": 46,
+        "living": 47
+      },
+      "rankings": {
+        "childcare": 17,
+        "medical": 3,
+        "safety": 14,
+        "economy": 2,
+        "education": 15,
+        "living": 17,
+        "population": 17
+      }
+    },
+    {
+      "city": {
+        "code": "13104",
+        "name": "新宿区",
+        "population": {
+          "total": 349385,
+          "male": 174822,
+          "female": 174563,
+          "under15": 29202,
+          "age15to64": 223593,
+          "over65": 63185,
+          "foreigners": 27216,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 286726
+            },
+            {
+              "year": 2005,
+              "population": 305716
+            },
+            {
+              "year": 2010,
+              "population": 326309
+            },
+            {
+              "year": 2015,
+              "population": 333560
+            },
+            {
+              "year": 2020,
+              "population": 349385
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 51,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 79,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 13,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 738,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 4888,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 10833,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 1969,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 621,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 33602,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1731,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 30,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 16,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 12,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 222800,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 3689,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 9.6,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 44,
+        "medical": 61,
+        "safety": 40,
+        "economy": 53,
+        "education": 48,
+        "living": 50
+      },
+      "rankings": {
+        "childcare": 14,
+        "medical": 2,
+        "safety": 18,
+        "economy": 7,
+        "education": 12,
+        "living": 9,
+        "population": 12
+      }
+    },
+    {
+      "city": {
+        "code": "13105",
+        "name": "文京区",
+        "population": {
+          "total": 240069,
+          "male": 115483,
+          "female": 124586,
+          "under15": 28065,
+          "age15to64": 152818,
+          "over65": 42020,
+          "foreigners": 8457,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 176017
+            },
+            {
+              "year": 2005,
+              "population": 189632
+            },
+            {
+              "year": 2010,
+              "population": 206626
+            },
+            {
+              "year": 2015,
+              "population": 219724
+            },
+            {
+              "year": 2020,
+              "population": 240069
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 52,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 71,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 9,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 308,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 4815,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 2422,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 884,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 707,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 14316,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1344,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 24,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 27,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 10,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 133661,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 2212,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 8.9,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 44,
+        "medical": 53,
+        "safety": 63,
+        "economy": 42,
+        "education": 49,
+        "living": 47
+      },
+      "rankings": {
+        "childcare": 15,
+        "medical": 7,
+        "safety": 2,
+        "economy": 19,
+        "education": 11,
+        "living": 18,
+        "population": 19
+      }
+    },
+    {
+      "city": {
+        "code": "13106",
+        "name": "台東区",
+        "population": {
+          "total": 211444,
+          "male": 108586,
+          "female": 102858,
+          "under15": 18648,
+          "age15to64": 142955,
+          "over65": 47510,
+          "foreigners": 14275,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 156325
+            },
+            {
+              "year": 2005,
+              "population": 165186
+            },
+            {
+              "year": 2010,
+              "population": 175928
+            },
+            {
+              "year": 2015,
+              "population": 198073
+            },
+            {
+              "year": 2020,
+              "population": 211444
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 29,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 44,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 7,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 277,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 499,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 5670,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 1066,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 482,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 24446,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1251,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 19,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 9,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 5,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 124345,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 4741,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 12.7,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 38,
+        "medical": 40,
+        "safety": 56,
+        "economy": 44,
+        "education": 37,
+        "living": 50
+      },
+      "rankings": {
+        "childcare": 22,
+        "medical": 22,
+        "safety": 9,
+        "economy": 16,
+        "education": 22,
+        "living": 10,
+        "population": 21
+      }
+    },
+    {
+      "city": {
+        "code": "13107",
+        "name": "墨田区",
+        "population": {
+          "total": 272085,
+          "male": 134787,
+          "female": 137298,
+          "under15": 28028,
+          "age15to64": 183630,
+          "over65": 60108,
+          "foreigners": 10767,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 215979
+            },
+            {
+              "year": 2005,
+              "population": 231173
+            },
+            {
+              "year": 2010,
+              "population": 247606
+            },
+            {
+              "year": 2015,
+              "population": 256274
+            },
+            {
+              "year": 2020,
+              "population": 272085
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 55,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 83,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 13,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 242,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 830,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 4031,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 1042,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 424,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 16884,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1443,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 25,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 13,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 4,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 145768,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 3806,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 12,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 45,
+        "medical": 42,
+        "safety": 59,
+        "economy": 42,
+        "education": 39,
+        "living": 49
+      },
+      "rankings": {
+        "childcare": 12,
+        "medical": 20,
+        "safety": 5,
+        "economy": 20,
+        "education": 21,
+        "living": 13,
+        "population": 16
+      }
+    },
+    {
+      "city": {
+        "code": "13108",
+        "name": "江東区",
+        "population": {
+          "total": 524310,
+          "male": 258015,
+          "female": 266295,
+          "under15": 66472,
+          "age15to64": 341716,
+          "over65": 110002,
+          "foreigners": 28682,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 376840
+            },
+            {
+              "year": 2005,
+              "population": 420845
+            },
+            {
+              "year": 2010,
+              "population": 460819
+            },
+            {
+              "year": 2015,
+              "population": 498109
+            },
+            {
+              "year": 2020,
+              "population": 524310
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 104,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 130,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 20,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 455,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 1471,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 6716,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 1776,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 499,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 19112,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 2345,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 45,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 26,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 11,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 264278,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 4338,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 12,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 57,
+        "medical": 49,
+        "safety": 49,
+        "economy": 51,
+        "education": 53,
+        "living": 50
+      },
+      "rankings": {
+        "childcare": 7,
+        "medical": 13,
+        "safety": 13,
+        "economy": 10,
+        "education": 10,
+        "living": 11,
+        "population": 8
+      }
+    },
+    {
+      "city": {
+        "code": "13109",
+        "name": "品川区",
+        "population": {
+          "total": 422488,
+          "male": 208688,
+          "female": 213800,
+          "under15": 47036,
+          "age15to64": 272685,
+          "over65": 79532,
+          "foreigners": 11897,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 324608
+            },
+            {
+              "year": 2005,
+              "population": 346357
+            },
+            {
+              "year": 2010,
+              "population": 365302
+            },
+            {
+              "year": 2015,
+              "population": 386855
+            },
+            {
+              "year": 2020,
+              "population": 422488
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 87,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 132,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 15,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 495,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 1750,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 5017,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 1233,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 557,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 21609,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1935,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 32,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 15,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 11,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 237641,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 4247,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 9.8,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 55,
+        "medical": 49,
+        "safety": 56,
+        "economy": 50,
+        "education": 47,
+        "living": 51
+      },
+      "rankings": {
+        "childcare": 9,
+        "medical": 14,
+        "safety": 10,
+        "economy": 13,
+        "education": 13,
+        "living": 8,
+        "population": 10
+      }
+    },
+    {
+      "city": {
+        "code": "13110",
+        "name": "目黒区",
+        "population": {
+          "total": 288088,
+          "male": 135820,
+          "female": 152268,
+          "under15": 31547,
+          "age15to64": 196916,
+          "over65": 55811,
+          "foreigners": 8642,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 250140
+            },
+            {
+              "year": 2005,
+              "population": 264064
+            },
+            {
+              "year": 2010,
+              "population": 268330
+            },
+            {
+              "year": 2015,
+              "population": 277622
+            },
+            {
+              "year": 2020,
+              "population": 288088
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 43,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 71,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 9,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 343,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 1176,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 3183,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 1098,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 717,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 12211,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1310,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 24,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 15,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 8,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 155715,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 2338,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 9.8,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 42,
+        "medical": 43,
+        "safety": 60,
+        "economy": 42,
+        "education": 43,
+        "living": 47
+      },
+      "rankings": {
+        "childcare": 18,
+        "medical": 19,
+        "safety": 3,
+        "economy": 21,
+        "education": 17,
+        "living": 19,
+        "population": 15
+      }
+    },
+    {
+      "city": {
+        "code": "13111",
+        "name": "大田区",
+        "population": {
+          "total": 748081,
+          "male": 372464,
+          "female": 375617,
+          "under15": 77231,
+          "age15to64": 475656,
+          "over65": 161855,
+          "foreigners": 20358,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 650331
+            },
+            {
+              "year": 2005,
+              "population": 665674
+            },
+            {
+              "year": 2010,
+              "population": 693373
+            },
+            {
+              "year": 2015,
+              "population": 717082
+            },
+            {
+              "year": 2020,
+              "population": 748081
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 105,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 168,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 24,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 624,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 1977,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 9425,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 2667,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 464,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 31432,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 3099,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 61,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 30,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 17,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 400164,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 7457,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 10.7,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 61,
+        "medical": 55,
+        "safety": 38,
+        "economy": 61,
+        "education": 63,
+        "living": 56
+      },
+      "rankings": {
+        "childcare": 5,
+        "medical": 6,
+        "safety": 21,
+        "economy": 3,
+        "education": 3,
+        "living": 1,
+        "population": 3
+      }
+    },
+    {
+      "city": {
+        "code": "13112",
+        "name": "世田谷区",
+        "population": {
+          "total": 943664,
+          "male": 445592,
+          "female": 498072,
+          "under15": 108940,
+          "age15to64": 638629,
+          "over65": 190042,
+          "foreigners": 22364,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 814901
+            },
+            {
+              "year": 2005,
+              "population": 841165
+            },
+            {
+              "year": 2010,
+              "population": 877138
+            },
+            {
+              "year": 2015,
+              "population": 903346
+            },
+            {
+              "year": 2020,
+              "population": 943664
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 151,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 189,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 27,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 934,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 2222,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 10626,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 3684,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 620,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 28994,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 3777,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 70,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 52,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 16,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 492065,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 7292,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 11,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 70,
+        "medical": 62,
+        "safety": 29,
+        "economy": 70,
+        "education": 70,
+        "living": 56
+      },
+      "rankings": {
+        "childcare": 1,
+        "medical": 1,
+        "safety": 23,
+        "economy": 1,
+        "education": 1,
+        "living": 2,
+        "population": 1
+      }
+    },
+    {
+      "city": {
+        "code": "13113",
+        "name": "渋谷区",
+        "population": {
+          "total": 243883,
+          "male": 117907,
+          "female": 125976,
+          "under15": 22984,
+          "age15to64": 154258,
+          "over65": 41261,
+          "foreigners": 8704,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 196682
+            },
+            {
+              "year": 2005,
+              "population": 203334
+            },
+            {
+              "year": 2010,
+              "population": 204492
+            },
+            {
+              "year": 2015,
+              "population": 224533
+            },
+            {
+              "year": 2020,
+              "population": 243883
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 42,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 48,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 15,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 711,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 1544,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 7768,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 1956,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 1074,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 28613,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1283,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 21,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 13,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 10,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 149967,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 1798,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 8.2,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 40,
+        "medical": 52,
+        "safety": 46,
+        "economy": 51,
+        "education": 44,
+        "living": 47
+      },
+      "rankings": {
+        "childcare": 21,
+        "medical": 8,
+        "safety": 16,
+        "economy": 11,
+        "education": 16,
+        "living": 20,
+        "population": 18
+      }
+    },
+    {
+      "city": {
+        "code": "13114",
+        "name": "中野区",
+        "population": {
+          "total": 344880,
+          "male": 172525,
+          "female": 172355,
+          "under15": 29123,
+          "age15to64": 231515,
+          "over65": 65878,
+          "foreigners": 15391,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 309526
+            },
+            {
+              "year": 2005,
+              "population": 310627
+            },
+            {
+              "year": 2010,
+              "population": 314750
+            },
+            {
+              "year": 2015,
+              "population": 328215
+            },
+            {
+              "year": 2020,
+              "population": 344880
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 52,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 89,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 8,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 326,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 707,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 5029,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 891,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 466,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 12917,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1608,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 23,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 15,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 12,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 208093,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 3795,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 9.8,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 45,
+        "medical": 41,
+        "safety": 58,
+        "economy": 42,
+        "education": 47,
+        "living": 50
+      },
+      "rankings": {
+        "childcare": 13,
+        "medical": 21,
+        "safety": 7,
+        "economy": 22,
+        "education": 14,
+        "living": 12,
+        "population": 13
+      }
+    },
+    {
+      "city": {
+        "code": "13115",
+        "name": "杉並区",
+        "population": {
+          "total": 591108,
+          "male": 284301,
+          "female": 306807,
+          "under15": 58944,
+          "age15to64": 380639,
+          "over65": 117072,
+          "foreigners": 14107,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 522103
+            },
+            {
+              "year": 2005,
+              "population": 528587
+            },
+            {
+              "year": 2010,
+              "population": 549569
+            },
+            {
+              "year": 2015,
+              "population": 563997
+            },
+            {
+              "year": 2020,
+              "population": 591108
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 91,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 157,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 20,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 555,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 1080,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 7095,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 2090,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 516,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 20592,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 2493,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 42,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 31,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 13,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 336339,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 5196,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 9.7,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 58,
+        "medical": 50,
+        "safety": 47,
+        "economy": 53,
+        "education": 56,
+        "living": 53
+      },
+      "rankings": {
+        "childcare": 6,
+        "medical": 11,
+        "safety": 15,
+        "economy": 8,
+        "education": 6,
+        "living": 5,
+        "population": 6
+      }
+    },
+    {
+      "city": {
+        "code": "13116",
+        "name": "豊島区",
+        "population": {
+          "total": 301599,
+          "male": 151020,
+          "female": 150579,
+          "under15": 26489,
+          "age15to64": 211034,
+          "over65": 58539,
+          "foreigners": 25573,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 249017
+            },
+            {
+              "year": 2005,
+              "population": 250585
+            },
+            {
+              "year": 2010,
+              "population": 284678
+            },
+            {
+              "year": 2015,
+              "population": 291167
+            },
+            {
+              "year": 2020,
+              "population": 301599
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 49,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 77,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 14,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 508,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 845,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 7815,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 998,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 496,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 19938,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1489,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 24,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 17,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 7,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 183819,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 3046,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 11.3,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 44,
+        "medical": 47,
+        "safety": 52,
+        "economy": 44,
+        "education": 43,
+        "living": 48
+      },
+      "rankings": {
+        "childcare": 16,
+        "medical": 16,
+        "safety": 11,
+        "economy": 17,
+        "education": 18,
+        "living": 15,
+        "population": 14
+      }
+    },
+    {
+      "city": {
+        "code": "13117",
+        "name": "北区",
+        "population": {
+          "total": 355213,
+          "male": 176289,
+          "female": 178924,
+          "under15": 36527,
+          "age15to64": 229948,
+          "over65": 87381,
+          "foreigners": 20368,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 326764
+            },
+            {
+              "year": 2005,
+              "population": 330412
+            },
+            {
+              "year": 2010,
+              "population": 335544
+            },
+            {
+              "year": 2015,
+              "population": 341076
+            },
+            {
+              "year": 2020,
+              "population": 355213
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 73,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 109,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 17,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 295,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 764,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 4947,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 884,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 412,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 13701,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1738,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 36,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 22,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 15,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 189700,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 3802,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 14.6,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 50,
+        "medical": 44,
+        "safety": 59,
+        "economy": 43,
+        "education": 54,
+        "living": 47
+      },
+      "rankings": {
+        "childcare": 11,
+        "medical": 18,
+        "safety": 6,
+        "economy": 18,
+        "education": 9,
+        "living": 21,
+        "population": 11
+      }
+    },
+    {
+      "city": {
+        "code": "13118",
+        "name": "荒川区",
+        "population": {
+          "total": 217475,
+          "male": 107683,
+          "female": 109792,
+          "under15": 24470,
+          "age15to64": 141156,
+          "over65": 50411,
+          "foreigners": 16814,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 180468
+            },
+            {
+              "year": 2005,
+              "population": 191207
+            },
+            {
+              "year": 2010,
+              "population": 203296
+            },
+            {
+              "year": 2015,
+              "population": 212264
+            },
+            {
+              "year": 2020,
+              "population": 217475
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 44,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 61,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 11,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 193,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 276,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 3240,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 584,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 415,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 9899,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 1130,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 24,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 12,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 7,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 112009,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 3141,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 13.6,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 42,
+        "medical": 39,
+        "safety": 64,
+        "economy": 37,
+        "education": 41,
+        "living": 47
+      },
+      "rankings": {
+        "childcare": 19,
+        "medical": 23,
+        "safety": 1,
+        "economy": 23,
+        "education": 19,
+        "living": 22,
+        "population": 20
+      }
+    },
+    {
+      "city": {
+        "code": "13119",
+        "name": "板橋区",
+        "population": {
+          "total": 584483,
+          "male": 286179,
+          "female": 298304,
+          "under15": 60014,
+          "age15to64": 367976,
+          "over65": 132602,
+          "foreigners": 23049,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 513575
+            },
+            {
+              "year": 2005,
+              "population": 523083
+            },
+            {
+              "year": 2010,
+              "population": 535824
+            },
+            {
+              "year": 2015,
+              "population": 561916
+            },
+            {
+              "year": 2020,
+              "population": 584483
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 109,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 175,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 41,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 395,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 2564,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 8162,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 1989,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 398,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 19343,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 2607,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 52,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 27,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 12,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 314446,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 5996,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 12.1,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 62,
+        "medical": 58,
+        "safety": 45,
+        "economy": 51,
+        "education": 55,
+        "living": 52
+      },
+      "rankings": {
+        "childcare": 4,
+        "medical": 4,
+        "safety": 17,
+        "economy": 12,
+        "education": 8,
+        "living": 6,
+        "population": 7
+      }
+    },
+    {
+      "city": {
+        "code": "13120",
+        "name": "練馬区",
+        "population": {
+          "total": 752608,
+          "male": 361770,
+          "female": 390838,
+          "under15": 85920,
+          "age15to64": 478648,
+          "over65": 159298,
+          "foreigners": 18129,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 658132
+            },
+            {
+              "year": 2005,
+              "population": 692339
+            },
+            {
+              "year": 2010,
+              "population": 716124
+            },
+            {
+              "year": 2015,
+              "population": 721722
+            },
+            {
+              "year": 2020,
+              "population": 752608
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 125,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 192,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 17,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 586,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 1241,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 9689,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 2491,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 447,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 21426,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 3153,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 67,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 39,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 13,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 374842,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 6752,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 10.4,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 66,
+        "medical": 50,
+        "safety": 39,
+        "economy": 57,
+        "education": 63,
+        "living": 55
+      },
+      "rankings": {
+        "childcare": 2,
+        "medical": 12,
+        "safety": 19,
+        "economy": 4,
+        "education": 4,
+        "living": 4,
+        "population": 2
+      }
+    },
+    {
+      "city": {
+        "code": "13121",
+        "name": "足立区",
+        "population": {
+          "total": 695043,
+          "male": 347408,
+          "female": 347635,
+          "under15": 75589,
+          "age15to64": 424335,
+          "over65": 170261,
+          "foreigners": 29791,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 617123
+            },
+            {
+              "year": 2005,
+              "population": 624807
+            },
+            {
+              "year": 2010,
+              "population": 683426
+            },
+            {
+              "year": 2015,
+              "population": 670122
+            },
+            {
+              "year": 2020,
+              "population": 695043
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 106,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 184,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 51,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 446,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 1206,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 11390,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 2574,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 375,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 25887,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 3509,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 67,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 36,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 15,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 345346,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 8634,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 13.1,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 63,
+        "medical": 58,
+        "safety": 35,
+        "economy": 57,
+        "education": 64,
+        "living": 56
+      },
+      "rankings": {
+        "childcare": 3,
+        "medical": 5,
+        "safety": 22,
+        "economy": 5,
+        "education": 2,
+        "living": 3,
+        "population": 5
+      }
+    },
+    {
+      "city": {
+        "code": "13122",
+        "name": "葛飾区",
+        "population": {
+          "total": 453093,
+          "male": 225758,
+          "female": 227335,
+          "under15": 51556,
+          "age15to64": 285968,
+          "over65": 111893,
+          "foreigners": 19229,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 421519
+            },
+            {
+              "year": 2005,
+              "population": 424878
+            },
+            {
+              "year": 2010,
+              "population": 442586
+            },
+            {
+              "year": 2015,
+              "population": 442913
+            },
+            {
+              "year": 2020,
+              "population": 453093
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 94,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 137,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 21,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 372,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 962,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 6140,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 1745,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 375,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 17953,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 2384,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 49,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 27,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 13,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 215948,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 4362,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 13.5,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 56,
+        "medical": 47,
+        "safety": 51,
+        "economy": 47,
+        "education": 56,
+        "living": 49
+      },
+      "rankings": {
+        "childcare": 8,
+        "medical": 17,
+        "safety": 12,
+        "economy": 14,
+        "education": 7,
+        "living": 14,
+        "population": 9
+      }
+    },
+    {
+      "city": {
+        "code": "13123",
+        "name": "江戸川区",
+        "population": {
+          "total": 697932,
+          "male": 351327,
+          "female": 346605,
+          "under15": 86270,
+          "age15to64": 449387,
+          "over65": 145764,
+          "foreigners": 31840,
+          "trend": [
+            {
+              "year": 2000,
+              "population": 619953
+            },
+            {
+              "year": 2005,
+              "population": 653944
+            },
+            {
+              "year": 2010,
+              "population": 678967
+            },
+            {
+              "year": 2015,
+              "population": 681298
+            },
+            {
+              "year": 2020,
+              "population": 697932
+            }
+          ]
+        },
+        "childcare": {
+          "emoji": "👶",
+          "label": "子育て",
+          "color": "#22c55e",
+          "items": [
+            {
+              "label": "保育所等数",
+              "value": 92,
+              "unit": "か所",
+              "avg23": 71.96
+            },
+            {
+              "label": "児童福祉施設数",
+              "value": 111,
+              "unit": "か所",
+              "avg23": 106.09
+            }
+          ]
+        },
+        "medical": {
+          "emoji": "🏥",
+          "label": "医療",
+          "color": "#ef4444",
+          "items": [
+            {
+              "label": "一般病院数",
+              "value": 21,
+              "unit": "か所",
+              "avg23": 17.57
+            },
+            {
+              "label": "一般診療所数",
+              "value": 455,
+              "unit": "か所",
+              "avg23": 497.17
+            },
+            {
+              "label": "医師数",
+              "value": 942,
+              "unit": "人",
+              "avg23": 1684.87
+            }
+          ]
+        },
+        "safety": {
+          "emoji": "🛡️",
+          "label": "安全",
+          "color": "#f97316",
+          "items": [
+            {
+              "label": "刑法犯認知件数",
+              "value": 10308,
+              "unit": "件",
+              "avg23": 6661.65
+            },
+            {
+              "label": "交通事故発生件数",
+              "value": 2327,
+              "unit": "件",
+              "avg23": 1694.78
+            }
+          ]
+        },
+        "economy": {
+          "emoji": "💰",
+          "label": "経済",
+          "color": "#a855f7",
+          "items": [
+            {
+              "label": "1人あたり課税所得",
+              "value": 398,
+              "unit": "万円",
+              "avg23": 598
+            },
+            {
+              "label": "事業所数",
+              "value": 21840,
+              "unit": "か所",
+              "avg23": 22878.65
+            },
+            {
+              "label": "歳入決算総額",
+              "value": 3586,
+              "unit": "億円",
+              "avg23": 2049
+            }
+          ]
+        },
+        "education": {
+          "emoji": "📚",
+          "label": "教育",
+          "color": "#0d9488",
+          "items": [
+            {
+              "label": "小学校数",
+              "value": 67,
+              "unit": "校",
+              "avg23": 36.96
+            },
+            {
+              "label": "中学校数",
+              "value": 34,
+              "unit": "校",
+              "avg23": 22.48
+            },
+            {
+              "label": "図書館数",
+              "value": 12,
+              "unit": "館",
+              "avg23": 10.57
+            }
+          ]
+        },
+        "living": {
+          "emoji": "🏠",
+          "label": "暮らし",
+          "color": "#3b82f6",
+          "items": [
+            {
+              "label": "世帯数",
+              "value": 333200,
+              "unit": "世帯",
+              "avg23": 226776.09
+            },
+            {
+              "label": "着工新設住宅戸数",
+              "value": 5317,
+              "unit": "戸",
+              "avg23": 4233.09
+            },
+            {
+              "label": "65歳以上単独世帯率",
+              "value": 11,
+              "unit": "%",
+              "avg23": 10.9
+            }
+          ]
+        }
+      },
+      "scores": {
+        "childcare": 53,
+        "medical": 48,
+        "safety": 39,
+        "economy": 56,
+        "education": 60,
+        "living": 52
+      },
+      "rankings": {
+        "childcare": 10,
+        "medical": 15,
+        "safety": 20,
+        "economy": 6,
+        "education": 5,
+        "living": 7,
+        "population": 4
+      }
+    }
+  ]
+}
