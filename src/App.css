@@ -412,32 +412,40 @@ body {
 /* ========== PC: 4列グリッド（1366px〜） ========== */
 @media (min-width: 1366px) {
   :root {
-    --gap: 16px;
-    --card-padding: 24px;
+    --gap: 10px;
+    --card-padding: 16px;
+  }
+
+  .app {
+    height: 100vh;
+    overflow: hidden;
   }
 
   .bento {
     display: grid;
     grid-template-columns: 2fr 2fr 3fr 3fr;
-    grid-template-rows: auto auto auto auto;
+    /* header=auto, 3行を均等に1frで割る, footer=auto */
+    grid-template-rows: auto 1fr 1fr 1fr auto;
     align-items: stretch;
     padding: var(--gap);
     gap: var(--gap);
+    height: 100%;
   }
 
   .bento-cell {
     padding: var(--card-padding);
+    overflow: hidden;
   }
 
   /* header */
   .cell-header {
     grid-column: 1 / -1;
     grid-row: 1;
-    padding: 12px 24px;
+    padding: 8px 16px;
   }
 
   .header-title {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   /* radar */
@@ -469,16 +477,104 @@ body {
   /* 出典 */
   .source-note {
     grid-column: 1 / -1;
-    padding: 4px;
+    grid-row: 5;
+    padding: 2px 4px;
   }
 
   /* PC サイズ調整 */
   .section-title {
-    font-size: 14px;
-    margin-bottom: 14px;
+    font-size: 13px;
+    margin-bottom: 8px;
   }
 
   .stat-card-header {
+    margin-bottom: 6px;
+  }
+
+  .stat-card-title {
+    font-size: 13px;
+  }
+
+  .stat-label {
+    font-size: 10px;
+    margin-bottom: 1px;
+  }
+
+  .stat-value {
+    font-size: 20px;
+  }
+
+  .stat-items {
+    gap: 4px;
+  }
+
+  .stat-unit {
+    font-size: 10px;
+  }
+
+  .stat-diff {
+    font-size: 10px;
+  }
+
+  .pop-total-number {
+    font-size: 28px;
+  }
+
+  .pop-total-unit {
+    font-size: 12px;
+  }
+
+  .pop-total {
+    margin-bottom: 4px;
+  }
+
+  .pop-gender {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  .age-bar {
+    margin-bottom: 8px;
+  }
+
+  .age-legend-item {
+    font-size: 10px;
+  }
+
+  .radar-inner {
+    height: 100%;
+  }
+
+  .radar-chart-wrap {
+    height: 0;
+    flex: 1;
+    min-height: 0;
+  }
+
+  .trend-inner {
+    height: 100%;
+  }
+
+  .trend-chart-wrap {
+    height: 0;
+    flex: 1;
+    min-height: 0;
+  }
+}
+
+/* ========== ワイドPC（1600px〜） ========== */
+@media (min-width: 1600px) {
+  :root {
+    --gap: 14px;
+    --card-padding: 20px;
+  }
+
+  .header-title {
+    font-size: 18px;
+  }
+
+  .section-title {
+    font-size: 14px;
     margin-bottom: 10px;
   }
 
@@ -495,7 +591,7 @@ body {
   }
 
   .stat-items {
-    gap: 8px;
+    gap: 6px;
   }
 
   .stat-unit {
@@ -507,81 +603,15 @@ body {
   }
 
   .pop-total-number {
-    font-size: 32px;
-  }
-
-  .pop-total-unit {
-    font-size: 14px;
+    font-size: 34px;
   }
 
   .pop-gender {
     font-size: 12px;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
   }
 
   .age-legend-item {
     font-size: 11px;
-  }
-
-  .radar-chart-wrap {
-    height: 300px;
-  }
-
-  .trend-chart-wrap {
-    height: 180px;
-  }
-}
-
-/* ========== ワイドPC（1600px〜） ========== */
-@media (min-width: 1600px) {
-  :root {
-    --gap: 18px;
-    --card-padding: 28px;
-  }
-
-  .header-title {
-    font-size: 20px;
-  }
-
-  .section-title {
-    font-size: 15px;
-    margin-bottom: 16px;
-  }
-
-  .stat-card-title {
-    font-size: 15px;
-  }
-
-  .stat-label {
-    font-size: 12px;
-  }
-
-  .stat-value {
-    font-size: 28px;
-  }
-
-  .stat-items {
-    gap: 12px;
-  }
-
-  .stat-unit {
-    font-size: 12px;
-  }
-
-  .stat-diff {
-    font-size: 12px;
-  }
-
-  .pop-total-number {
-    font-size: 40px;
-  }
-
-  .pop-gender {
-    font-size: 13px;
-    margin-bottom: 20px;
-  }
-
-  .age-legend-item {
-    font-size: 12px;
   }
 }
